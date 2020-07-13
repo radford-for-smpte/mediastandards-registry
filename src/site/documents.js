@@ -15,3 +15,18 @@ function filter(value) {
 }
 
 document.getElementById('search').addEventListener('input', ({ target: { value } }) => filter(value));
+
+$(document).ready(function() {
+    $('#docTable').DataTable( {
+        columnDefs: [ {
+            targets: [ 0 ],
+            orderData: [ 0, 1 ]
+        }, {
+            targets: [ 1 ],
+            orderData: [ 1, 0 ]
+        }, {
+            targets: [ 4 ],
+            orderData: [ 4, 0 ]
+        } ]
+    } );
+} );
