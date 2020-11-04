@@ -1229,7 +1229,7 @@
         "title": "Service Name and Transport Protocol Port Number Registry",
         "status": "Active",
 		"active": true,
-        "url": "iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml",
+        "url": "https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml",
         "publicationDate": "2020-07-07T07:00:00.000Z"
     },
     {
@@ -3105,7 +3105,7 @@
         "supersededBy": [
             "iso15444-1-2016"
         ],
-        "url": "iso.org/standard/52174.html",
+        "url": "https://www.iso.org/standard/52174.html",
         "publicationDate": "2009-12-15T08:00:00.000Z",
         "usage": [
             "DCinema",
@@ -10195,7 +10195,7 @@
         "supersededBy": [
             "st430-6-2010"
         ],
-        "url": "Cannot locate",
+        "url": null,
         "supersededDate": "2010-08-18T07:00:00.000Z",
         "usage": [
             "DCinema",
